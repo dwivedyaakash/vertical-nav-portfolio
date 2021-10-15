@@ -363,6 +363,15 @@ main {
 }
 
 /******************** Contact ********************/
+.mobile-footer {
+  display: none;
+  background-color: hsl(0, 0%, 20%);
+  color: #ffffff;
+  margin: 0;
+  padding: 1.4rem;
+  text-align: center;
+}
+
 .contact {
   background-color: hsl(0, 0%, 15%);
   color: #ffffff;
@@ -413,8 +422,12 @@ main {
   .about-image-aakash {
     display: block;
   }
+  .mobile-footer {
+    display: block;
+  }
   .contact {
     margin-left: 0;
+    display: none;
   }
 }
 
@@ -451,14 +464,11 @@ main {
   .skills-img-container img:hover {
     transform: scale(1);
   }
-  .projects-child-card img:hover {
-    transform: scale(1);
-  }
-}
-
-@media (max-width: 700px) {
   .projects-card {
     grid-template-columns: 1fr;
+  }
+  .projects-child-card img:hover {
+    transform: scale(1);
   }
 }
 
