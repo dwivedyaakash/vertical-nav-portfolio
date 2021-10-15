@@ -308,9 +308,6 @@ main {
   height: 175px;
   width: 100%;
 }
-.skills-img-container img:hover {
-  transform: scale(1.1);
-}
 
 .skills-child-card h3 {
   margin-top: 50px;
@@ -343,7 +340,9 @@ main {
 .projects-child-card img {
   width: 90%;
   border-radius: 10px;
+  transition: all 0.3s ease 0s;
 }
+
 .projects-child-card img:hover {
   transform: scale(1.05);
 }
